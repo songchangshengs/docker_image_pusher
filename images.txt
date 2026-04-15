@@ -4,5 +4,9 @@
 #--platform=linux/arm64 redis:7.2.4
 
 # mysql
---platform=linux/amd64 mysql:8.0.39
---platform=linux/arm64 mysql:8.0.39
+#--platform=linux/amd64 mysql:8.0.39
+#--platform=linux/arm64 mysql:8.0.39
+
+# nacos
+--platform=linux/amd64 nacos-server:v2.4.2
+--platform=linux/arm64 nacos-server:v2.4.2
