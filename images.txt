@@ -8,5 +8,9 @@
 #--platform=linux/arm64 mysql:8.0.39
 
 # nacos
---platform=linux/amd64 nacos/nacos-server:v2.4.2
---platform=linux/arm64 nacos/nacos-server:v2.4.2
+#--platform=linux/amd64 nacos/nacos-server:v2.4.2
+#--platform=linux/arm64 nacos/nacos-server:v2.4.2
+
+# seata
+--platform=linux/amd64 apache/seata-server:2.5.0
+--platform=linux/arm64 apache/seata-server:2.5.0
